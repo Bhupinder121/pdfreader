@@ -14,7 +14,8 @@ $(document).ready(function() {
 });
 
 window.onload =function(){
-  var socket = new WebSocket('ws://192.168.0.118:8080')
+  
+  var socket = new WebSocket(`ws://:${process.env.PORT}`)
 
   var x = document.getElementById("myAudio");
 
