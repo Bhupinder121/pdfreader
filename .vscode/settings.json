@@ -1,0 +1,8 @@
+{
+    "python.pythonPath":"D:\\Python\\python.exe",
+    "editor.quickSuggestions":true,
+    "python.autoComplete.extraPaths": ["C:\\Users\\anita\\anaconda3\\Lib\\site-packages\\gtts"],
+    "python.condaPath": "C:\\Users\\anita\\anaconda3\\Lib\\site-packages\\eyed3\\*",
+    "liveServer.settings.port": 5501
+    
+}
