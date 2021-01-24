@@ -1,0 +1,31 @@
+{
+  "name": "pdfreader",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "fs": "^0.0.1-security",
+    "http": "^0.0.1-security",
+    "python-shell": "^2.0.3",
+    "qs": "^6.9.6",
+    "path": "^0.12.7",
+    "ws": "^7.4.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bhupinder121/pdfreader.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Bhupinder121/pdfreader/issues"
+  },
+  "homepage": "https://github.com/Bhupinder121/pdfreader#readme"
+}

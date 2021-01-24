@@ -24,7 +24,7 @@ const wss = new WebSocket.Server({port:8080});
 
 
 lines=[]
-app.listen(port,()=>{console.log('listening...')})
+app.listen(port,()=>{console.log(`listening at ${port}`)})
 
 app.use('/color',express.static('templates'));
 
