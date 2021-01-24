@@ -14,8 +14,8 @@ $(document).ready(function() {
 });
 
 window.onload =function(){
-  
-  var socket = new WebSocket(`ws://:${process.env.PORT}`)
+  var HOST = location.origin.replace(/^http/, 'ws')
+  var socket = new WebSocket(HOST)
 
   var x = document.getElementById("myAudio");
 
